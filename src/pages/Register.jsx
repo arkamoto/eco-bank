@@ -211,7 +211,7 @@ const Register = () => {
                 />
 
                 <ReCAPTCHA
-                  sitekey="6Lf6rO8qAAAAAMlXW_2zlOn2NuAVJL-528tIsTGU" // Replace with your actual site key
+                  sitekey="prj_srxQlag7vLbS7LBuTBGzuVqn8wsN" // Replace with your actual site key
                   onChange={(token) => setRecaptchaToken(token)}
                   onExpired={() => setRecaptchaToken("")}
                 />
