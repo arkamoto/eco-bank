@@ -210,7 +210,7 @@ const Register = () => {
                   helperText={errors.address?.message}
                 />
 
-                <ReCAPTCHA
+                {/* <ReCAPTCHA
                   sitekey="prj_srxQlag7vLbS7LBuTBGzuVqn8wsN" // Replace with your actual site key
                   onChange={(token) => setRecaptchaToken(token)}
                   onExpired={() => setRecaptchaToken("")}
@@ -219,7 +219,7 @@ const Register = () => {
                   <Typography color="error" className="text-sm">
                     Please complete the reCAPTCHA
                   </Typography>
-                )}
+                )} */}
 
                 <Button
                   size="large"
